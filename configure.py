@@ -306,6 +306,8 @@ if platform.is_msvc():
               '/Zi',  # Create pdb with debug info.
               '/W4',  # Highest warning level.
               '/WX',  # Warnings as errors.
+              '/FD',  # to prevent cocurrwnt debug file writing
+              '/FS',  # to prevent cocurrwnt debug file writing
               '/wd4530', '/wd4100', '/wd4706', '/wd4244',
               '/wd4512', '/wd4800', '/wd4702', '/wd4819',
               # Disable warnings about constant conditional expressions.
